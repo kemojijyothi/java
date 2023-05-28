@@ -6,7 +6,7 @@ class Relationaloperators
         int num2=50;
         System.out.println(num1 +" greater than "+ num2 +" = "+(num1>num2));
         System.out.println(num1 +" is less than "+num2 + " = "+ (num1<num2));
-        System.out.println(num1 + " eual to "+ num2 + " ="+ (num1==num2));
+        System.out.println(num1 + " equal to "+ num2 + " ="+ (num1==num2));
         num2=20;
         System.out.println(num1 + " equal to "+ num2 + " ="+ (num1==num2));
         num1=30;
