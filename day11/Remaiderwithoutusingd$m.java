@@ -1,6 +1,6 @@
 //write a program to print remainder without using divison and module operators
 import java.util.Scanner;
-class quocinet{
+class Remaider{
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);

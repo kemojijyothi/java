@@ -1,6 +1,6 @@
 import java.util.Scanner;
-class patterEx3{
-    public static void main(String[] args){
+class Patterex3{
+    public static void main(String [] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number of rows:");
         int r=sc.nextInt();
@@ -8,10 +8,11 @@ class patterEx3{
         int c=sc.nextInt();
         for(int i=1;i<=r;i++){
             for(int j=1;j<=c;j++){
-                if(i==1&&j==1||i==1&&j==c||i==r&&j==c||i==r&&j==c){
+                if(i==1&&j==1||i==1&&j==6||i==r&&j==1||i==r&&j==c){
                     System.out.print("@"+" ");
                 }
-                else{
+                
+                else {
                     System.out.print(" "+" ");
                 }
             }

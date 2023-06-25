@@ -1,3 +1,4 @@
+//WAP to print th eproduct of natural number number from 1 to n
 import java.util.Scanner;
 class ProductOfSum{
     public static void main(String [] args){
