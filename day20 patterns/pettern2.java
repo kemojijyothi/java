@@ -20,3 +20,14 @@ class pettern2{
         
     }
 }
+output:
+enter the number of rows:
+6
+enter the number of column:
+6
+@ * * * * @ 
+* * * * * * 
+* * * * * *
+* * * * * *
+* * * * * *
+@ * * * * @
