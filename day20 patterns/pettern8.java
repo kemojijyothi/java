@@ -23,3 +23,15 @@ class pettern8{
         
     }
 }
+output:
+enter the number of rows:
+7
+enter the number of column:
+7
+* * * * * * * 
+* *       * * 
+*   *   *   *
+*     *     *
+*   *   *   *
+* *       * *
+* * * * * * *
