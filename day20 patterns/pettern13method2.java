@@ -2,7 +2,7 @@ import java.util.Scanner;
 class pettern14{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter the number of rows:");
+        System.out.println("enter the number of rows:");                     
         int r=sc.nextInt();
         System.out.println("enter the number of column:");
         int c=sc.nextInt();
@@ -17,3 +17,14 @@ class pettern14{
         
     }
 }
+output:
+enter the number of rows:
+6
+enter the number of column:
+6
+* 
+* * 
+* * *
+* * * *
+* * * * *
+* * * * * *
