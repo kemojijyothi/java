@@ -8,7 +8,7 @@ class pettern9{
         int c=sc.nextInt();
         for(int i=1;i<=r;i++){
             for(int j=1;j<=c;j++){
-                if(i==1||j==1||i==r||j==c||i==j||i+j==r+1||i==(r+1/2)){
+                if(i==1||j==1||i==r||j==c||i==j||i+j==r+1||i==(r+1)/2)){
                     System.out.print("*"+" ");
                 }
                 else{
@@ -20,3 +20,15 @@ class pettern9{
         
     }
 }
+output:
+enter the number of rows:
+7
+enter the number of column:
+7
+* * * * * * *
+* *       * *
+*   *   *   *
+* * * * * * *
+*   *   *   *
+* *       * *
+* * * * * * *
