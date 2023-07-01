@@ -1,14 +1,16 @@
 import java.util.Scanner;
-class pettern10{
+class petter20{
     public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number of rows:");
         int r=sc.nextInt();
         System.out.println("enter the number of column:");
-        int c=sc.nextInt();
+        
+        int c=2*r-1;
         for(int i=1;i<=r;i++){
             for(int j=1;j<=c;j++){
-                if(i==1||j==1||i==r||j==c||i==(r+1)/2||j==(c+1)/2){
+                if(i==r||(i+j==r+1)||(j-i==r-1)){
+                    
                     System.out.print("*"+" ");
                 }
                 else{
@@ -16,7 +18,7 @@ class pettern10{
                 }
             }
             System.out.println();
-        }
-        
+        }   
+    
     }
 }
