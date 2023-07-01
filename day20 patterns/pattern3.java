@@ -20,3 +20,14 @@ class Patterex3{
         }
     }
 }
+output:
+enter the number of rows:
+6
+enter the number of columns:
+6
+@         @
+
+
+
+
+@         @
